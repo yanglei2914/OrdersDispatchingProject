@@ -1,10 +1,10 @@
 /**
- * TestOrderService
+ * TestIOrderService
  *
  * @author yuxi
  * @date 2018/12/3
  */
-
+package service_test;
 import model.Order;
 import static org.junit.Assert.*;
 import org.junit.Test;
@@ -18,7 +18,7 @@ import javax.annotation.Resource;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = {"classpath:applicationContext.xml"})
-public class TestOrderService {
+public class TestIOrderService {
     @Autowired
     private IOrderService orderService;
     @Test
