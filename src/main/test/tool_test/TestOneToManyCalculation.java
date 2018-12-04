@@ -1,4 +1,4 @@
-package service_test;
+package tool_test;
 
 import org.junit.Test;
 
